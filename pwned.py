@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 import hashlib
 import requests
 import sys
@@ -25,4 +27,3 @@ for foundHash in arrayOfHashes:
 
 if noPasswordFound:
     print("{} was not found".format(password))
-    
