@@ -4,8 +4,9 @@ This project is a small Python script that uses the Have I Been Pwned API for sa
 
 In the Computerphile video "Have You Been Pwned?", Dr Mike Pound uses a script exactly like this one to check how many times certain passwords had leaked in a safe manner. He didn't release the source code (as I'm writing this) and many people wanted the script, so I made a quick implementation. The video: https://www.youtube.com/watch?v=hhUb5iknVJs
 
-How to use:
+## How To uses
 
-- Use Python 3
-- Before running the script, download the requests Python module by going into CMD and typing "pip install requests"
-- Use the script by calling it this way in CMD: python pwned.py PasswordToCheck
+- Install `pipenv` globally
+- Run `pipenv install`
+- Activate the venv by running `source ./.venv/bin/activate`
+- Use the script by running e.g. `python pwned.py <PASSWORD>`
